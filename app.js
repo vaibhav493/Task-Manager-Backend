@@ -12,7 +12,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://64cde9f8842a6d143797c417--voluble-fudge-247422.netlify.app",
+      "https://64cdf1a9a3461a161547e959--splendid-torrone-a3b3c6.netlify.app",
     ],
     methods: ["GET", "POST", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
