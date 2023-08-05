@@ -10,7 +10,7 @@ const dbConnect = async () => {
     console.log("Found error while connecting to Data Base : ", err);
   }
 };
- 
+       
 module.exports = {
   dbConnect,
 };

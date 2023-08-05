@@ -8,11 +8,13 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
-
 app.use(
   cors({
-    origin: "http://localhost:3000",
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    origin: [
+      "http://localhost:3000",
+      "https://64cde9f8842a6d143797c417--voluble-fudge-247422.netlify.app",
+    ],
+    methods: ["GET", "POST", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
   })
